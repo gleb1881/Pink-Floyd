@@ -1,0 +1,25 @@
+a {
+    color: red;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    color: black;
+    font-size: 20px
+}
+
+input {
+    width: 200px;
+    height: 30px; 
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
