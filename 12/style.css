@@ -9,7 +9,8 @@ ul {
 
 a:hover {
     color: black;
-    font-size: 20px
+    font-size: 20px;
+    background-color: antiquewhite;
 }
 
 input {
@@ -22,4 +23,20 @@ input {
     height: 50px;
     margin-top: 20px;
     margin-left: 20px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.forma {
+    margin-left: 50px;
+}
+
+.forma form {
+    display: flex;
+    flex-direction: column;
 }
